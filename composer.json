@@ -1,0 +1,28 @@
+{
+    "name": "olotudammy/school-service",
+    "description": "'Service Provider for School application'",
+    "type": "library",
+    "require": {
+        "spondonit/service": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "softdot",
+            "email": "olotudammy05@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "SpondonIt\\SchoolService\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SpondonIt\\SchoolService\\SpondonItSchoolServiceProvider"
+            ]
+        }
+    }
+}
